@@ -20,11 +20,11 @@ function ContentOnClick(ContentItems, video, modal, source){
         }
     }
 }
-ContentOnClick(ContentItems[0],video1,modal,"../Thiep2/Video/videochucmung2.mp4");
+ContentOnClick(ContentItems[0],video1,modal,"./Video/videochucmung2.mp4");
 ContentItems[1].onclick = function() {
     modal1.classList.add("active");
 }
-ContentOnClick(ContentItems[2],video,modal2,"../Thiep2/Video/videochucmung.mp4");
+ContentOnClick(ContentItems[2],video,modal2,"./Video/videochucmung.mp4");
 // hàm thực hiện thoát khỏi modal
 function OnClick(modal, video){
     modal.onclick =function()    {

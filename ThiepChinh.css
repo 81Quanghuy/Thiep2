@@ -8,7 +8,7 @@ html{
 }
 body{
     margin: 0px;
-    background: url("../Thiep2/Img/background.jpg")
+    background: url("./Img/background.jpg")
 }
 header{
     display: flex;
